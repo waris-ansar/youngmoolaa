@@ -1,0 +1,200 @@
+.sec_hed {
+  padding: 2.8rem 5rem 0.5rem 5rem;
+  background-color: #000;
+}
+
+@media screen and (max-width: 650px) {
+  .sec_hed {
+    padding: 2.8rem 2rem 0.5rem 2rem;
+  }
+}
+
+.header-primary {
+  max-width: 1920px;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 1.8rem;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 9000000000px) {
+  .header-primary {
+    max-width: initial !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-primary {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.header-primary .title {
+  color: #fff;
+  font-family: Gill-sans-bold;
+  font-size: 3.4rem;
+  line-height: 3.9rem;
+}
+
+@media screen and (max-width: 650px) {
+  .header-primary .title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-primary .title {
+    font-size: 1.5rem;
+  }
+}
+
+.header-primary .button-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-primary .button-container .btn {
+  width: 14.5rem;
+  height: 4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-color: #575757;
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  margin-left: 2.1rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .header-primary .button-container .btn {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header-primary .button-container .btn {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1.3rem;
+  }
+}
+
+.header-primary .button-container .btn span {
+  font-size: 1.2rem;
+  font-family: Gill-sans-regular;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 950px) {
+  .header-primary .button-container .btn span {
+    display: none;
+  }
+}
+
+.header-primary .button-container .btn img {
+  width: 1.9rem;
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 950px) {
+  .header-primary .button-container .btn img {
+    margin-left: 0 !important;
+    width: 2rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .header-primary .button-container .btn img {
+    width: 1.5rem;
+  }
+}
+
+.header-primary .button-container .shuffle img {
+  margin-left: 12px;
+}
+
+.header-primary .button-container .shuffle:hover {
+  background-color: rgba(87, 87, 87, 0.6);
+}
+
+.header-primary .button-container .moolasbtn:hover {
+  background-color: rgba(87, 87, 87, 0.6);
+}
+
+.header-primary .button-container .wallet {
+  background-color: #fff;
+  width: 19rem;
+  height: 4.1rem;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 950px) {
+  .header-primary .button-container .wallet {
+    display: none;
+  }
+}
+
+.header-primary .button-container .wallet span {
+  color: #000;
+  font-family: arial;
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: -1px;
+  word-spacing: 3.5px;
+}
+
+.header-primary .button-container .wallet img {
+  width: 1.7rem;
+  margin-left: 8px;
+}
+
+.header-primary .button-container .filter {
+  display: none;
+}
+
+@media only screen and (max-width: 950px) {
+  .header-primary .button-container .filter {
+    display: block;
+  }
+}
+
+.header-primary .button-container .filter:hover {
+  background-color: rgba(87, 87, 87, 0.6);
+}
+
+.border {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+}
+/*# sourceMappingURL=secondar.css.map */

@@ -1,0 +1,214 @@
+.moolas {
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 950px) {
+  .moolas {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.moolas .appliedFilters {
+  margin-left: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow-x: auto;
+  text-transform: uppercase;
+  scrollbar-width: thin;
+}
+
+.moolas .appliedFilters::-webkit-scrollbar {
+  width: 9px !important;
+}
+
+.moolas .appliedFilters::-webkit-scrollba-thumb {
+  background-color: #575757;
+}
+
+.moolas .appliedFilters::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.moolas .appliedFilters .filter-count h2 {
+  font-family: Gill-sans-bold;
+  font-size: 16px;
+}
+
+.moolas .appliedFilters .filterList {
+  margin-left: 2em;
+  border: 2px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 42px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  display: flex;
+}
+
+.moolas .appliedFilters .filterList h2 {
+  font-size: 16px;
+}
+
+.moolas .appliedFilters .filterList .Filterval {
+  padding-left: .5em;
+}
+
+.moolas .appliedFilters .filterList .cross img {
+  width: 1.3em;
+  margin-left: 1.5em;
+  padding-top: .4em;
+}
+
+@media screen and (max-width: 950px) {
+  .moolas .row {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .moolas .row {
+    margin-top: -1rem;
+  }
+}
+
+.moolas .row .column {
+  display: inline-block;
+  margin-left: 4rem;
+  width: 16%;
+  vertical-align: top;
+  margin-top: 3.5rem;
+}
+
+@media screen and (max-width: 1542px) {
+  .moolas .row .column {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1145px) and (min-width: 950px) {
+  .moolas .row .column {
+    width: 26.5%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .moolas .row .column {
+    width: 45%;
+  }
+  .moolas .row .column:nth-child(odd) {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .moolas .row .column {
+    width: 40%;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+.moolas .row .column .heading h4 {
+  padding: 1.2em 0;
+  text-align: center;
+  font-family: Gill-sans-regular;
+  font-size: 11px;
+  background-color: #2D2D2D;
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1500px) {
+  .moolas .row .column .heading h4 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .moolas .row .column .heading h4 {
+    padding: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .moolas .row .column .heading h4 {
+    font-size: 0.8rem;
+  }
+}
+
+.moolas .row .column img {
+  margin-top: 2rem;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-transition: width 0.1s ease-in;
+  transition: width 0.1s ease-in;
+}
+
+@media screen and (max-width: 550px) {
+  .moolas .row .column img {
+    margin-top: 1.2rem;
+  }
+}
+
+.moolas .row .column .hover-class:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.moolas .row .column h3 {
+  font-family: Gill-sans-bold;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 1.5rem;
+  letter-spacing: 0.8px;
+}
+
+@media screen and (max-width: 550px) {
+  .moolas .row .column h3 {
+    font-size: 0.8rem;
+  }
+}
+
+.moolas .row .column small {
+  display: block;
+  font-family: Gill-sans-regular;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 2rem;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 950px) {
+  .moolas .row .column small {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .moolas .row .column small {
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=NFT.css.map */

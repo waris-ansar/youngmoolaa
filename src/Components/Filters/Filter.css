@@ -1,0 +1,243 @@
+.filters {
+  max-width: 48rem;
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 9000000000px) {
+  .filters {
+    max-width: 25vw !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .filters {
+    width: 100%;
+    max-width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    padding-bottom: 6em;
+    padding-left: 2em;
+    padding-right: 5em;
+    right: -12px;
+  }
+}
+
+.filters .borderbt {
+  border-bottom: none !important;
+}
+
+.filters .filter-heading {
+  font-size: 3.4rem;
+  color: #575757;
+  font-family: Gill-sans-bold;
+  line-height: 3.9rem;
+  font-weight: 700;
+  padding-top: 1.5rem;
+}
+
+.filters .close-nav {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .filters .close-nav {
+    display: block;
+    width: 3rem;
+  }
+}
+
+.filters .filter-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.filters .filter-header .close-btn {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .filters .filter-header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .filters .filter-header .close-btn {
+    display: block;
+    width: 3em;
+    height: 3em;
+    margin-top: 2em;
+  }
+}
+
+.filters label {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filters .filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+  margin-top: 1.8rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .filters .filter {
+    margin-top: 2.5rem;
+  }
+}
+
+.filters .filter .filter-data-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.4rem 0;
+  border-bottom: 1px solid #575757;
+}
+
+.filters .filter .filter-data-link .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filters .filter .filter-data-link .detail .image {
+  width: 30px;
+}
+
+.filters .filter .filter-data-link .detail .image img {
+  width: 100%;
+}
+
+.filters .filter .filter-data-link .detail span {
+  display: block;
+  font-family: Gill-sans-bold;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 1.8rem;
+}
+
+.filters .filter .filter-data-link .detail .side2 img {
+  width: 75% !important;
+}
+
+.filters .filter #open-filter:checked ~ #filter-sub-item {
+  display: block !important;
+}
+
+.filters .filter .filter-sub-item {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow-y: auto;
+  border-bottom: 1px solid #575757;
+  height: 460px;
+}
+
+.filters .filter .filter-sub-item::-webkit-scrollbar {
+  width: 3px;
+}
+
+.filters .filter .filter-sub-item::-webkit-scrollbar-thumb {
+  background-color: #575757;
+}
+
+.filters .filter .filter-sub-item::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.filters .filter .filter-sub-item .subitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+  border: 0;
+  padding: 1.6rem 0;
+}
+
+.filters .filter .filter-sub-item .subitem input[class="box"] + label {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.filters .filter .filter-sub-item .subitem input[class="box"]:checked + label {
+  background-color: #FFB800;
+}
+
+.filters .filter .filter-sub-item .subitem input[class="box"] {
+  display: none;
+}
+
+.filters .filter .filter-sub-item .subitem span {
+  display: block;
+  margin-left: 3rem;
+  font-size: 1.4rem;
+  font-family: Gill-sans-regular;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.opened {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .opened {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .opened .opened-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+/*# sourceMappingURL=Filter.css.map */

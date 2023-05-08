@@ -1,0 +1,43 @@
+*,*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gill-sans-regular;
+}
+html{
+  font-size: 62.5%;
+
+  @media only screen and (max-width: 1366px) and (min-width: 950px){
+      font-size: 55%;
+  }
+}
+body{
+  background-color: #000;
+}
+a{
+  text-decoration: none;
+}
+@font-face {
+  font-family: Gill-sans-bold;
+  src: url("./assets/fonts/Gill\ Sans\ Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Gill-sans-regular;
+  src: url("./assets/fonts/Gill\ Sans.otf");
+  font-weight: 400;
+}
+.popup_inputbg{
+  background-image: url("./assets/images/Down_Chevron.png");
+
+}
+select{
+  font-family: Gill-sans-regular;
+}
+optgroup{  font-family: Gill-sans-regular;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}

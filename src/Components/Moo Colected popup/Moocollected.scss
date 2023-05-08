@@ -1,0 +1,119 @@
+.overlay{
+    position: fixed;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    // @media screen and (max-width: 950px) and (min-width: 580px){
+    //     top: 51rem;
+    // }
+}
+.popup-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // margin: 70px auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 500px;
+    margin: auto;
+    filter: drop-shadow(4px 4px 10px rgba(0,0,0,0.5));
+
+    @media screen and (max-width: 580px){
+        width: 32rem;
+        max-width: 95%;
+    }
+    // position: relative;
+    transition: all 1s ease-in-out;
+
+
+    .popup-1-container{
+        display: flex;
+        flex-direction: column;
+
+        .popup-defination{
+            font-family:Gill-sans-bold;
+            font-size: 20px;
+            color: #0E1D25;
+        }
+
+        .popup-detail{
+            font-family: Gill-sans-regular;
+            font-size: 12px;
+            color: #000;
+            line-height: 20px;
+            padding-top: 2rem;
+            text-transform: uppercase;
+        }
+
+        input{
+            font-family:Gill-sans-regular;
+            font-size: 12px;
+            line-height: 20px;
+            color: #575757;
+            border: 0;
+            outline: 0;
+            margin-top: 2rem;
+
+            &::placeholder{
+                font-family:Gill-sans-regular;
+                font-size: 12px;
+                line-height: 20px;
+                color: #575757;
+            }
+
+        }
+
+        .line{
+            margin-top: 1px;
+            border-bottom: 1px solid #000;
+        }
+
+        .charcter-limit{
+            font-family: Gill-sans-regular;
+                font-size: 12px;
+                color: #575757;
+                text-align: right;
+                padding-top: 1rem;
+        }
+
+        .btn-container{
+            margin-top: 20px;
+            display: flex;
+            .btn{
+                width: 99px;
+                font-size: 11px;
+                font-family: Gill-sans-regular;
+                background-color: #000;
+                color: #fff;
+                text-align: center;
+                padding: 9px 0;
+                border-radius: 10px;
+                border: 0;
+                outline: 0;
+
+            }
+            .second{
+                margin-left: 1rem;
+            }
+        }
+
+    }
+
+}
+.popup-2{
+    display: flex;
+justify-content: center;
+}
+
+@media screen and (min-width: 580px) {
+    .popup-2{
+        width: 495px;
+    }
+}

@@ -1,0 +1,35 @@
+.page-body-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+  padding: 1rem 5rem;
+  color: #fff;
+  background-color: black;
+}
+
+@media screen and (max-width: 1366px) {
+  .page-body-container {
+    -ms-grid-columns: 25% 75%;
+        grid-template-columns: 25% 75%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .page-body-container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .page-body-container {
+    padding: 2.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .page-body-container {
+    padding: 2.5rem 0rem;
+  }
+}
+/*# sourceMappingURL=gallery.css.map */

@@ -1,0 +1,473 @@
+button {
+  cursor: pointer;
+}
+
+.mymoola-header .btn:hover {
+  background-color: rgba(87, 87, 87, 0.6);
+}
+
+.mymoola {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: #000;
+}
+
+@media screen and (max-width: 650px) {
+  .mymoola {
+    padding: 0rem 2rem 0rem 2rem;
+  }
+}
+
+.border-mollas {
+  display: block !important;
+  height: 4px;
+  width: 90%;
+  background-color: #fff;
+}
+
+.mymoola-header {
+  max-width: 1920px;
+  background-color: #000;
+  padding: 2.8rem 0rem 2rem 0rem;
+  background-color: #000;
+  border-bottom: 4px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 650px) {
+  .mymoola-header {
+    padding: 2.8rem 0rem 1rem 0rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mymoola-header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.mymoola-header .title {
+  color: #fff;
+  font-family: Gill-sans-bold;
+  font-size: 3.4rem;
+  line-height: 3.9rem;
+}
+
+@media screen and (max-width: 650px) {
+  .mymoola-header .title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mymoola-header .title {
+    font-size: 1.5rem;
+  }
+}
+
+.mymoola-header .btn {
+  width: 14.5rem;
+  height: 4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-color: #575757;
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  margin-left: 2.1rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .mymoola-header .btn {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .mymoola-header .btn {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1.3rem;
+  }
+}
+
+.mymoola-header .btn span {
+  font-size: 1.2rem;
+  font-family: Gill-sans-regular;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 950px) {
+  .mymoola-header .btn span {
+    display: none;
+  }
+}
+
+.mymoola-header .btn img {
+  width: 1.9rem;
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 950px) {
+  .mymoola-header .btn img {
+    margin-left: 0 !important;
+    width: 2rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .mymoola-header .btn img {
+    width: 1.5rem;
+  }
+}
+
+.gallery-container {
+  padding: 4.5rem 0rem;
+  background-color: #000;
+}
+
+@media screen and (max-width: 650px) {
+  .gallery-container {
+    padding: 4.5rem 0rem;
+  }
+}
+
+.gallery-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 950px) {
+  .gallery-container .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.gallery-container .row .contain2-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery-container .row .contain2-boxes .my-diary {
+  color: #fff;
+  width: 46rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2D2D2D;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1366px) and (min-width: 950px) {
+  .gallery-container .row .contain2-boxes .my-diary {
+    width: 43rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .gallery-container .row .contain2-boxes .my-diary {
+    width: 50% !important;
+  }
+}
+
+.gallery-container .row .contain2-boxes .my-diary .heading {
+  font-family: Gill-sans-bold;
+  font-size: 1.6rem;
+  padding-top: 2rem;
+}
+
+.gallery-container .row .contain2-boxes .my-diary .img-container {
+  border-radius: 20px;
+  width: 25rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 650px) {
+  .gallery-container .row .contain2-boxes .my-diary .img-container {
+    width: 60%;
+  }
+}
+
+.gallery-container .row .contain2-boxes .my-diary .img-container img {
+  width: 100%;
+}
+
+.gallery-container .row .contain2-boxes .my-diary p {
+  font-family: Gill-sans-regular;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.gallery-container .row .contain2-boxes .my-diary .balance {
+  padding-top: 1.8rem;
+}
+
+.gallery-container .row .contain2-boxes .my-diary h5 {
+  font-family: Gill-sans-bold;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+.gallery-container .row .contain2-boxes .my-diary .available {
+  padding-top: 4.5rem;
+}
+
+@media screen and (max-width: 650px) {
+  .gallery-container .row .contain2-boxes .my-diary .available {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gallery-container .row .contain2-boxes .my-diary {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gallery-container .row .contain2-boxes .my-diary .collecta {
+    width: 90%;
+  }
+}
+
+.gallery-container .row .contain2-boxes .my-diary .collect {
+  background-color: #FFB800;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 650px) {
+  .gallery-container .row .contain2-boxes .my-diary .collect {
+    width: 100%;
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+  }
+}
+
+.gallery-container .row .contain2-boxes .my-diary .collect h4 {
+  color: #000;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.gallery-container .row .contain2-boxes .my-diary .collect:hover {
+  background-color: rgba(255, 184, 0, 0.6);
+}
+
+@media screen and (max-width: 950px) {
+  .gallery-container .row .contain-box-2 {
+    margin-left: 1rem !important;
+    margin-top: 3.5rem;
+  }
+}
+
+.gallery-container .row .column-gal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 4.5rem;
+}
+
+@media screen and (max-width: 950px) {
+  .gallery-container .row .column-gal {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gallery-container .row .column-gal {
+    margin-left: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .gallery-container .row .column-gal {
+    margin-left: 1.5rem;
+  }
+}
+
+.gallery-container .row .column-gal .image-container {
+  width: 22rem;
+}
+
+@media screen and (max-width: 1366px) and (min-width: 950px) {
+  .gallery-container .row .column-gal .image-container {
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .gallery-container .row .column-gal .image-container {
+    width: 100%;
+  }
+}
+
+.gallery-container .row .column-gal .image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gallery-container .row .column-gal .title {
+  padding-top: 1.5rem;
+  font-family: Gill-sans-bold;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.gallery-container .row .column-gal .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 950px) {
+  .gallery-container .row .column-gal .btn-container {
+    width: 100%;
+  }
+}
+
+.gallery-container .row .column-gal .btn-container .btn-gray {
+  margin-top: 2rem;
+  background-color: #575757;
+}
+
+@media screen and (max-width: 1366px) {
+  .gallery-container .row .column-gal .btn-container .btn-gray {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .gallery-container .row .column-gal .btn-container .btn-gray {
+    width: 100%;
+  }
+}
+
+.gallery-container .row .column-gal .btn-container .btn-gray span {
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.gallery-container .row .column-gal .btn-gray:hover {
+  background-color: rgba(87, 87, 87, 0.6);
+}
+
+.gallery-container .row .column-gal .text {
+  font-family: Gill-sans-regular;
+  font-size: 12px;
+  color: #fff;
+  padding-top: 2rem;
+  letter-spacing: 0.2px;
+}
+
+.gallery-container .btn {
+  width: 22rem;
+  padding: 11px 0;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .gallery-container .btn {
+    padding: 8.5px 0;
+  }
+}
+
+.gallery-container .btn span {
+  font-family: Gill-sans-regular;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 650px) {
+  .gallery-container .btn span {
+    font-size: 10px;
+  }
+}
+
+.back {
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  background-color: #575757;
+  font-size: 1.2rem !important;
+  font-family: Gill-sans-bold !important;
+  padding: 1.25rem 2.7rem;
+  width: auto !important;
+  height: auto !important;
+}
+
+@media screen and (max-width: 950px) and (min-width: 550px) {
+  .back span {
+    display: block !important;
+    font-size: 1rem;
+  }
+}
+
+.back img {
+  width: 2.2rem !important;
+  margin-right: 6px;
+  margin-left: 1px !important;
+  margin-bottom: 0.8px;
+}
+
+@media screen and (max-width: 550px) {
+  .back img {
+    margin-left: 1px;
+  }
+}
+/*# sourceMappingURL=MyMoola.css.map */

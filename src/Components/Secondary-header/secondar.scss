@@ -1,0 +1,154 @@
+.sec_hed{
+    padding: 2.8rem 5rem 0.5rem 5rem;
+background-color: #000;
+@media screen and (max-width: 650px) {
+    padding: 2.8rem 2rem 0.5rem 2rem;
+}
+}
+.header-primary{
+    max-width: 1920px;
+    @media screen and (min-width: 2000px) and(max-width:9000000000px){
+        max-width:initial !important;
+    }
+    // margin: auto;
+    background-color: #000;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 1.8rem;
+    @media screen and(max-width:400px){
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+    .title{
+        color: #fff;
+        font-family: Gill-sans-bold;
+        font-size: 3.4rem;
+        line-height: 3.9rem;
+
+        @media screen and (max-width: 650px) {
+            font-size: 2rem;
+        }
+        @media screen and (max-width: 400px) {
+            font-size: 1.5rem;
+        }
+    }
+
+    .button-container{
+        position: relative;
+        display: flex;
+        align-items: center;
+
+
+        .btn{
+            width: 14.5rem;
+            height: 4.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            background-color: #575757;
+            border-radius: 10px;
+            outline: none;
+            border: 0;
+            margin-left: 2.1rem;
+
+            @media only screen and (max-width: 950px){
+                width: 5rem;
+                height: 5rem;
+            }
+
+            @media screen and (max-width: 650px) {
+                width: 4rem;
+                height: 4rem;
+                margin-left: 1.3rem;
+            }
+            
+            span{
+                font-size: 1.2rem;
+                font-family: Gill-sans-regular;
+                letter-spacing: 1px;
+
+                @media only screen and (max-width: 950px){
+                    display:none;
+                }
+            }
+
+            img{
+                width: 1.9rem;
+                margin-left: 8px;
+
+                @media only screen and (max-width: 950px){
+                    margin-left: 0 !important;
+                    width: 2rem;
+                }
+
+                @media only screen and (max-width: 650px){
+                    width: 1.5rem;
+                }
+            }
+        }
+
+        .shuffle{
+            img{
+                margin-left: 12px;
+            }
+        }
+        .shuffle:hover{
+            background-color: rgba($color: #575757, $alpha: .6);
+
+        }
+        .moolasbtn:hover{
+            background-color: rgba($color: #575757, $alpha: .6);
+
+        }
+
+        .wallet{
+            background-color: #fff;
+            width: 19rem;
+            height: 4.1rem;
+            border-radius: 25px;
+
+            @media only screen and (max-width: 950px){
+                display: none;
+            }
+
+            span{
+                color: #000;
+                font-family: arial;
+                font-weight: 700;
+                font-size: 1.4rem;
+                letter-spacing: -1px;
+                word-spacing: 3.5px;
+            }
+
+            img{
+                width: 1.7rem;
+                margin-left: 8px;
+            }
+        }
+
+        .filter{
+            display: none;
+
+            @media only screen and (max-width: 950px){
+                display: block;
+            }
+        }
+.filter:hover{
+    background-color: rgba($color: #575757, $alpha: .6);
+
+}
+
+    }
+    
+}
+.border{
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+}

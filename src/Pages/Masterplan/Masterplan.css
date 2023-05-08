@@ -1,0 +1,325 @@
+.masterplan {
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+.masterplan .sec-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 3em 6em 0em 6em;
+}
+
+@media screen and (max-width: 650px) {
+  .masterplan .sec-header {
+    padding: 4em 3em;
+  }
+}
+
+.masterplan .sec-header .border {
+  margin-top: 2em;
+  height: 4px;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.masterplan .sec-header h1 {
+  color: #fff;
+  font-size: 34px;
+  font-family: Gill-sans-bold;
+}
+
+.masterplan .sec-header .btn {
+  width: 14.5rem;
+  height: 4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-color: #575757;
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  margin-left: 2.1rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .masterplan .sec-header .btn {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .masterplan .sec-header .btn {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .masterplan .sec-header .btn {
+    margin-top: 2em;
+  }
+}
+
+.masterplan .sec-header .btn span {
+  font-size: 1.2rem;
+  font-family: Gill-sans-regular;
+  letter-spacing: 1px;
+}
+
+.masterplan .sec-header .btn img {
+  width: 1.9rem;
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 950px) {
+  .masterplan .sec-header .btn img {
+    margin-left: 0 !important;
+    width: 2rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .masterplan .sec-header .btn img {
+    width: 1.5rem;
+  }
+}
+
+.masterplan .sec-header .wallet {
+  background-color: #fff;
+  width: 19rem;
+  height: 4.1rem;
+  border-radius: 25px;
+}
+
+.masterplan .sec-header .wallet span {
+  color: #000;
+  font-family: arial;
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: -1px;
+  word-spacing: 3.5px;
+}
+
+@media screen and (max-width: 950px) {
+  .masterplan .sec-header .wallet span {
+    margin-right: 8px;
+  }
+}
+
+.masterplan .sec-header .wallet img {
+  width: 1.7rem;
+  margin-left: 8px;
+}
+
+.masterplan .main-masterplan {
+  color: #fff;
+  padding: 4em 6em;
+}
+
+@media screen and (max-width: 650px) {
+  .masterplan .main-masterplan {
+    padding: 4em 3em;
+  }
+}
+
+.masterplan .main-masterplan .linkcolor {
+  color: #FFB800;
+}
+
+.masterplan .main-masterplan h3 {
+  font-size: 28px;
+  font-family: Gill-sans-bold;
+}
+
+.masterplan .main-masterplan p {
+  padding-top: 1em;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.masterplan .main-masterplan .sec-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 30% 20%;
+      grid-template-columns: 50% 30% 20%;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 650px) {
+  .masterplan .main-masterplan .sec-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .masterplan .main-masterplan .sec-1 img {
+    width: 90vw;
+    padding-top: 4em;
+    margin-left: 0em !important;
+  }
+}
+
+@media screen and (max-width: 650px) and (min-width: 0px) {
+  .masterplan .main-masterplan .sec-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .masterplan .main-masterplan .sec-1 img {
+    width: 80vw;
+    padding-top: 4em;
+    margin-left: 0em !important;
+  }
+}
+
+.masterplan .main-masterplan .sec-1 img {
+  margin-left: 3em;
+}
+
+.masterplan .main-masterplan .sec-2, .masterplan .main-masterplan .sec-3, .masterplan .main-masterplan .sec-4 {
+  margin-top: 8em;
+}
+
+.masterplan .main-masterplan .sec-2 img, .masterplan .main-masterplan .sec-3 img, .masterplan .main-masterplan .sec-4 img {
+  margin-top: 6em;
+}
+
+@media screen and (max-width: 1750px) and (min-width: 380px) {
+  .masterplan .main-masterplan .sec-2 img, .masterplan .main-masterplan .sec-3 img, .masterplan .main-masterplan .sec-4 img {
+    width: 85vw;
+  }
+}
+
+@media screen and (max-width: 380px) and (min-width: 0px) {
+  .masterplan .main-masterplan .sec-2 img, .masterplan .main-masterplan .sec-3 img, .masterplan .main-masterplan .sec-4 img {
+    width: 75vw;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .masterplan .main-masterplan .sec-2 img, .masterplan .main-masterplan .sec-3 img, .masterplan .main-masterplan .sec-4 img {
+    margin-top: 2em;
+  }
+}
+
+.masterplan .main-masterplan .sec-5 {
+  margin-top: 8em;
+}
+
+.masterplan .main-masterplan .sec-5 p {
+  font-size: 16px;
+}
+
+.masterplan .main-masterplan .sec-5 .timeline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 7.5em;
+}
+
+.masterplan .main-masterplan .sec-5 .timeline .t1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 48%;
+  background-color: #575757;
+  border-radius: 20px;
+  padding: 50px;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 400px) {
+  .masterplan .main-masterplan .sec-5 .timeline .t1 {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .masterplan .main-masterplan .sec-5 .timeline .t1 {
+    width: 100%;
+    margin-bottom: 2em;
+    margin-right: 0em;
+  }
+}
+
+.masterplan .main-masterplan .sec-5 .timeline .t1 p {
+  padding-top: 0em;
+}
+
+.masterplan .main-masterplan .sec-5 .timeline .t1 .num {
+  color: #000;
+  text-align: center;
+}
+
+.masterplan .main-masterplan .sec-5 .timeline .t1 .num h3 {
+  font-family: Gill-sans-bold;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 500px) {
+  .masterplan .main-masterplan .sec-5 .timeline .t1 .num h3 {
+    font-size: 12px;
+  }
+}
+
+.masterplan .main-masterplan .sec-5 .timeline .t1 .num h1 {
+  font-family: Gill-sans-bold;
+  font-size: 100px;
+}
+
+@media screen and (max-width: 350px) {
+  .masterplan .main-masterplan .sec-5 .timeline .t1 .num h1 {
+    font-size: 70px;
+  }
+}
+
+.masterplan .main-masterplan .sec-5 .timeline .t1 .text {
+  padding-left: 5em;
+}
+
+@media screen and (max-width: 500px) {
+  .masterplan .main-masterplan .sec-5 .timeline .t1 .text {
+    padding-left: 15px;
+  }
+}
+
+.masterplan .main-masterplan .sec-5 .timeline .t1 .text p {
+  font-family: Gill-sans-regular;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 350px) {
+  .masterplan .main-masterplan .sec-5 .timeline .t1 .text p {
+    font-size: 12px;
+  }
+}
+
+.masterplan .main-masterplan .sec-5 .timeline .t1:nth-child(even) {
+  margin-left: 2em;
+}
+
+@media screen and (max-width: 1000px) {
+  .masterplan .main-masterplan .sec-5 .timeline .t1:nth-child(even) {
+    margin-left: 0em;
+  }
+}
+/*# sourceMappingURL=Masterplan.css.map */

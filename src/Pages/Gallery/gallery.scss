@@ -1,0 +1,19 @@
+.page-body-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 1rem 5rem;
+    color: #fff;
+background-color: black;
+@media screen and (max-width: 1366px) {
+    grid-template-columns: 25% 75%;
+}
+@media screen and (max-width: 950px) {
+    display:  block;
+}
+    @media screen and (max-width: 650px) {
+        padding: 2.5rem 2rem;
+    }
+
+    @media screen and (max-width: 560px) {
+        padding: 2.5rem 0rem;
+    }}

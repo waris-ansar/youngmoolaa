@@ -1,0 +1,199 @@
+$heavy-rgular: Gill-sans;
+$bold : Gill-sans-bold;
+$regular: Gill-sans-regular;
+.soon{
+  display: grid;
+  justify-items: center;
+  margin-top:20%;
+ margin-bottom: 20%;
+
+  .soonimg{
+    border: 2px solid #fff;
+  border-radius: 20px;
+  @media screen and (max-width:650px) {
+    width: 80%;
+    
+  }
+  }
+}
+.sale-page-body {
+    max-width: 1756px;
+    padding: 1rem 6rem;
+    padding-bottom: 20rem !important;
+    margin: auto;
+    @media screen and (min-width: 1756px) {
+        max-width: initial;
+        margin: 0;
+    }
+    @media screen and (max-width: 650px) {
+      padding: 1rem 2rem;
+    }
+  
+    .container {
+      width: 100%;
+      .price-heading {
+        display: block;
+        color: #fff;
+        font-family: $regular;
+        font-size: 14px;
+        padding-top: 2.5rem;
+        letter-spacing: 1px;
+  
+        @media screen and (max-width: 850px) {
+          display: none;
+        }
+      }
+  
+      .sale-moolas {
+        display: grid;
+        // grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+        grid-template-columns: repeat(10, 1fr);
+        column-gap: 2.6rem;
+  
+        @media screen and (max-width: 1280px) {
+          // grid-template-columns: repeat(auto-fill, minmax(10.4rem, 1fr));
+          grid-template-columns: repeat(8, 1fr);
+        column-gap: 2.6rem;
+        }
+  
+        @media screen and (max-width: 950px) {
+          // grid-template-columns: repeat(auto-fill, minmax(10.4rem, 1fr));
+          grid-template-columns: repeat(6, 1fr);
+          column-gap: 2rem;
+        }
+  
+        @media screen and (max-width: 550px) and (min-width: 0px) {
+          grid-template-columns: repeat(2, 1fr);
+          column-gap: 2.5rem;
+        }
+  
+        .column {
+          // width: 16rem;
+          width: 100%;
+          margin-top: 4rem;
+          color: #fff;
+          text-align: center;
+  
+          @media screen and (max-width: 850px) and (min-width: 550px) {
+            margin-top: 3.5rem;
+          }
+  
+          @media screen and (max-width: 550px) and (min-width: 0px) {
+            margin-top: 2.2rem;
+          }
+  
+          img {
+            width: 100%;
+            border-radius: 10px;
+          }
+  
+          .name-no {
+            font-family: $bold;
+            font-size: 12px;
+            padding-top: 1.5rem;
+            letter-spacing: 0.8px;
+          }
+  
+          .price {
+            display: block;
+            font-family: $regular;
+            font-size: 1.2rem;
+            padding-top: 2rem;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+  }
+  .sec-header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3em 6em 0em 6em;
+    @media screen and (max-width: 650px) {
+        padding: 4em 3em;
+    }
+    .border{
+        margin-top: 2em;
+        height: 4px;
+        width: 100vw;
+        background-color: #fff;
+    }
+    h1{
+        color: #fff;
+        font-size: 34px;
+        font-family: Gill-sans-bold;
+    }
+    .btn{
+        width: 14.5rem;
+        height: 4.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: #575757;
+        border-radius: 10px;
+        outline: none;
+        border: 0;
+        margin-left: 2.1rem;
+    
+        @media only screen and (max-width: 950px){
+            width: 5rem;
+            height: 5rem;
+        }
+    
+        @media screen and (max-width: 650px) {
+            width: 3rem;
+            height: 3rem;
+            margin-left: 1.3rem;
+        }
+        @media screen and (max-width: 548px) {
+            margin-top: 2em;
+
+        }
+        span{
+            font-size: 1.2rem;
+            font-family: Gill-sans-regular;
+            letter-spacing: 1px;
+    
+        }
+    
+        img{
+            width: 1.9rem;
+            margin-left: 8px;
+    
+            @media only screen and (max-width: 950px){
+                margin-left: 0 !important;
+                width: 2rem;
+            }
+    
+            @media only screen and (max-width: 650px){
+                width: 1.5rem;
+            }
+        }
+    }
+    .wallet{
+        background-color: #fff;
+        width: 19rem;
+        height: 4.1rem;
+        border-radius: 25px;
+
+   
+        span{
+            color: #000;
+            font-family: arial;
+            font-weight: 700;
+            font-size: 1.4rem;
+            letter-spacing: -1px;
+            word-spacing: 3.5px;
+            @media screen and (max-width:950px) {
+                margin-right: 8px;
+            }
+        }
+
+        img{
+            width: 1.7rem;
+            margin-left: 8px;
+        }
+    }
+}
